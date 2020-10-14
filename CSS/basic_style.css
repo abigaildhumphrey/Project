@@ -32,7 +32,7 @@ h1 {
 
 /*------------ SELECT ALL SQUARE PARAGRAPHS IN THE ARRAY -------*/
 
-.squares:nth-child(-n+4) p{
+.squares:nth-child(-n+4) {
     font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
     font-size: 1.5cm;
     font-weight: 900;
@@ -57,10 +57,10 @@ h1 {
 
 /*--------HOVER EFFECTS-------*/
 .container .squares:nth-child(-n+4):hover {
-    background-image: url("..images/icons/smileyface2.png");
+    background-image: url("..images/icons/smileyface1.png");
     transform: scale (.5);
     animation-name: race;
-    animation-duration: 2.5;
+    animation-duration: 2.5s;
     animation-iteration-count: infinite;
     animation-timing-function: cubic-bezier(2.5,.2,.3,2);
 
@@ -88,6 +88,7 @@ h1 {
     cursor: pointer;
 
 }
+
 
 /* ----- ANIMATION EFFECT -----------*/
 
